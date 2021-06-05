@@ -35,7 +35,16 @@ android {
         viewBinding true
     }
 
-
+    sourceSets{
+        main{
+            res.srcDirs=
+                    [
+                            'src/main/res/ui/weather/activity_weather',
+                            'src/main/res/layout',
+                            'src/main/res'
+                    ]
+        }
+    }
 }
 
 dependencies {
