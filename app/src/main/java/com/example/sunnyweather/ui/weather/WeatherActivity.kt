@@ -37,7 +37,7 @@ class WeatherActivity : AppCompatActivity() {
         binding= ActivityWeatherBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.now.navBtn.setOnClickListener{
-            binding.drawerLayout.openDrawer(GravityCompat.START)
+            //binding.drawerLayout.openDrawer(GravityCompat.START)
         }
         binding.drawerLayout.addDrawerListener(object:DrawerLayout.DrawerListener{
             override fun onDrawerSlide(drawerView: View, slideOffset: Float) {
